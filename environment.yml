@@ -1,0 +1,20 @@
+name: aptaflow_test
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+  - r
+dependencies:
+  - python=3.9
+  - nextflow
+  - cutadapter
+  - fastp
+  - multiqc
+  - pandas
+  - r-base=3.6.1
+  - r-dplyr=0.8.0.1
+  - r-tidyr=0.8.3
+  - r-ggplot2=3.1.1
+  - r-xlsx=0.6.1
+  - r-argparse=2.0.1
+  - r-showtext=0.9
