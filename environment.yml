@@ -1,13 +1,13 @@
 name: aptaflow_test
 channels:
-  - defaults
   - conda-forge
   - bioconda
   - r
 dependencies:
+  - mamba
   - python=3.9
   - nextflow
-  - cutadapter
+  - cutadapt
   - fastp
   - multiqc
   - pandas

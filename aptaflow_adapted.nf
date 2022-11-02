@@ -109,8 +109,8 @@ process trim_selex_primers {
             --action=trim \
             --report=full \
             \
-            --minimum-length params.cutadapt.minlength \
-            --maximum-length params.cutadapt.maxlength \
+            --minimum-length ${params.cutadapt.minlength} \
+            --maximum-length ${params.cutadapt.maxlength} \
             -g ^${params.primers.p5_f} \
             -G ^${params.primers.p5_r} \
             \
